@@ -59,10 +59,10 @@ class Index extends React.Component {
                 <p>
                   Systems and Computing Engineering Student - National University of Colombia.
                   23 years old.
-                              
-                  Bogota - Colombia
                 </p>
-                 
+                 <p>
+
+                </p>
               </div>
               <span className="image"><img src={escudo} alt="" /></span>
             </div>
@@ -114,15 +114,7 @@ class Index extends React.Component {
             </ul>
           </section>
 
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Do.</p>
-            </header>
-           
-            <p className="content">while....</p>
-     
-          </section>
+          
 
           <section id="cta" className="main special">
             <header className="major">
@@ -130,12 +122,7 @@ class Index extends React.Component {
                 <p>Developer 2018 ~ : Siemens<br />
               </p>
             </header>
-            < footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer >
+           
           </section>
 
         </div>
@@ -160,3 +147,23 @@ export const pageQuery = graphql`
     }
   }
 `
+
+/*
+    < section id = "second" className = "main special" >
+        <header className="major">
+            <h2>Ipsum consequat</h2>
+            <p>Do.</p>
+        </header>
+
+        <p className="content">while....</p>
+     
+          </section >
+
+
+ < footer className="major">
+              <ul className="actions">
+                <li><Link to="/generic" className="button special">Get Started</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li>
+              </ul>
+            </footer >
+              */

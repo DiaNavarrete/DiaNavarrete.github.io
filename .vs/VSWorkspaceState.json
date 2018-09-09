@@ -2,17 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\fonts",
-    "\\src\\assets\\scss",
-    "\\src\\assets\\scss\\layout",
     "\\src\\components",
     "\\src\\layouts",
     "\\src\\pages",
-    "\\src\\posts",
-    "\\src\\posts\\my-second-post",
-    "\\src\\templates"
+    "\\src\\posts"
   ],
-  "SelectedNode": "\\src\\pages\\index.js",
+  "SelectedNode": "\\src\\components\\Nav.js",
   "PreviewInSolutionExplorer": false
 }
